@@ -186,6 +186,7 @@ setup(
     install_requires=[
         'django-appconf',
         'cryptography',
+        'setuptools-rust'
     ],
     tests_require=['Django'],
     cmdclass={
