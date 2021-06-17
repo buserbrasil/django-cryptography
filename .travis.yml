@@ -6,13 +6,7 @@ matrix:
   allow_failures:
     - python: nightly
     - env: DJANGO="https://github.com/django/django/archive/main.tar.gz"
-  exclude:
-    - python: "3.5"
-      env: DJANGO="Django>=3.0,<3.1"
-    - python: "3.5"
-      env: DJANGO="https://github.com/django/django/archive/main.tar.gz"
 python:
-  - "3.5"
   - "3.6"
   - "3.7"
   - "3.8"
